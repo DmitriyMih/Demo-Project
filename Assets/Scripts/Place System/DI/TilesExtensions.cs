@@ -4,7 +4,6 @@ namespace GameSystem
 {
     public static class TilesExtensions
     {
-
         public static Vector3 CalculateGroupOffset(this Vector3Int gridSize, float tileSize)
         {
             float offsetX = (gridSize.x - 1) * tileSize / 2f;
